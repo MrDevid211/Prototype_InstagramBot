@@ -29,9 +29,8 @@ def xpath_existance(url):
 	return existence
 
 # Запрос пароля и логина 
-
-log = "meta_traveler"
-pas = "travel"
+log = "" # Логин
+pas = "" # Пароль
 
 # log = "_nakrut0chka_"
 # pas = "kasha228"
@@ -168,55 +167,3 @@ for person in file_list:
 
 	filter_users.write(user)
 	index += 1
-
-
-
-# while True:
-# 	Filter()
-
-
-
-
-
-
-
-
-
-# filter_users = open("filter_users.txt", "a")
-# for user in filtered_list:
-# 	filter_users.write(user)
-# filter_users.close()
-
-# print("\nДобавлено", i , "пользователей")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Запасной блок кода фильтрации. Проверка на закрытий аккаунт 
-
-# # Берём людей со списка и проходимся по каждому 
-# for user_link in users: # Итерационный цикл
-#     browser.get(user_link) # Переход на страничку пользователя
-
-#     # Фильтрация юзеров
-#     try:
-#     	# Проверка на закрытый аккаунт 
-# 	    if browser.find_element_by_xpath('//section/main/div/div/article/div[1]/div/h2') == "Это закрытый аккаунт":
-# 	        continue
-#     except:
-#     	filter_users.write(user_link) # Запись отфильтрированого пользователя в новый список
-#     	schet += 1 # Дофига математичекое вычисление 
-#     	print("Добавлен пользоатель № " + str(schet)) # Счётчик. Чисто для удобства
-#     	time.sleep(1.5) # Ожидание 
-#     users = users.replese(user_link, "") # Удаления пользователя со старого списка
