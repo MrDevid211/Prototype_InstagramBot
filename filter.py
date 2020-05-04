@@ -13,6 +13,15 @@ from datetime import timedelta, datetime
 
 browser = webdriver.Chrome('PATH/chromedriver')
 
+# Превьюха
+print( """                                          
+  mmmm  m    mmmmmmmm m    m m    m   mm  
+ #"   " #    #   #    #    # #  m"    ##  
+ "#mmm  #mmmm#   #    #    # #m#     #  #  -------------------
+     "# #    #   #    #    # #  #m   #mm#  |   by Mr.Devid   | 
+ "mmm#" #    #   #    "mmmm" #   "m #    # -------------------   
+ """)
+
 days = 20 # Максимальное количество дней с момента последней публикации
 acc_subscription = 500 # Максимум подписок на аккаутне 
 publications = 10 #Минимум публикаций
