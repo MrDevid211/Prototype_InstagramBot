@@ -32,9 +32,6 @@ def xpath_existance(url):
 log = "" # Логин
 pas = "" # Пароль
 
-# log = "_nakrut0chka_"
-# pas = "kasha228"
-
 
 # Вход в инсту
 browser.get("https://www.instagram.com")
